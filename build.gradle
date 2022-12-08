@@ -15,7 +15,11 @@ dependencies {
     implementation 'com.amazonaws:aws-lambda-java-core:1.2.1'
     implementation 'com.amazonaws:aws-lambda-java-events:3.11.0'
     implementation 'com.amazonaws:aws-lambda-java-events'
+    implementation 'com.squareup.okhttp3:okhttp:3.14.6'
     runtimeOnly 'com.amazonaws:aws-lambda-java-log4j2:1.5.1'
+    implementation 'com.google.guava:guava:11.0.2'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.0.1'
+
 }
 
 task buildZip(type: Zip) {
